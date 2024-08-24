@@ -1,0 +1,264 @@
+1. 1).public Static void main(String args[])
+  Ans:here, 
+      public is a Access specifier
+      Static is a Non-access specifier
+      void is return_type 
+      main is method_Name
+      String args[] is parameters
+
+   2).void
+  Ans:void is a keyword and return_type,used to execute 
+      the java program without any return_type values.
+
+  3).static 
+  Ans:static is a keyword and non-access specifier used 
+      the write the static methods, declare and initialize 
+      all type of variables.
+ 
+  4).final 
+ Ans:final is a keyword and non-access specifier used to 
+     declare or store the constant 
+     values  
+   
+  5).public 
+ Ans:public is a keyword and Access specifier used to 
+     declare the all classes methods. And every programmer can be access.
+
+2. Explain data types briefly
+   Data types is a fundamental concept of java programming language it means
+   which type of data can be stored to the variable.
+
+   Classification of Data types:
+   In data types there are two types they are, 
+   a).Primitive Data types.
+   b).Non-primitive Data types.
+
+a).Primitive Data types
+   Primitive Data types are pre-defined datatypes or in-built functions.
+   In Primitive Data types there are 8 types they are,
+   i.int
+  ii.float
+ iii.double
+  iv.long
+   v.short
+  vi.boolean
+ vii.byte
+viii.char     
+
+b).Non-Primitive Data types
+   Non-Primitive Data types are post-defined datatypes
+   In Non-Primitive data types there are 4 types they are,
+   i.String
+  ii.class
+ iii.array
+  iv.Another one is not discussed
+
+3.Explain variable and it's types
+Ans:Variables is a container used to store the values with the help of data types.
+    
+    Types of variables 
+    There are 4 types of varibles they are,
+    i.Local variables.
+   ii.Static variables.
+  iii.Non-Static/Instance variables.
+   iv.Parameterized variables.
+   
+ i.Local Variables 
+   a).Local variables are must be declare and initialise in Class and methods.
+   b).It should not declare out of the class or method.
+   c).It sould not start with capitals and Numbers.
+   d).It should not start with any special Characters except '$' and '_' .
+
+   Syntax: Datatype Variable_Name;
+ 
+   declaration and Initialization: int number; || int number = 5;
+
+ ii.Static variables
+   a).static variables are must be declare in Class and outside the methods.
+   b).It should not declare out-side the class or in-side the method.
+   c).It should not start with capitals and Numbers.
+   d).It should not start with any special Characters except '$' and '_' .
+
+    Syntax: Access specifier Non-Acces specifier Datatype Variable_Name;
+ 
+   declaration: public static int number;
+
+ iii.Non-Static varibles
+    a).Non-static variables are must be declare in Class and outside the methods.
+    b).It should not declare out-side the class or in-side the method.
+    c).It should not start with capitals and Numbers.
+    d).It should not start with any special Characters except '$' and '_' .
+
+    Syntax: Access specifier Datatype Variable_Name;
+ 
+   declaration: public int number;
+
+  iv.Parameterized Variables
+   a).Non-static variables are must be declare in Class and outside the methods.
+   b).It should not declare out-side the class or in-side the method.
+   c).It should not start with capitals and Numbers.
+   d).It should not start with any special Characters except '$' and '_' .
+
+    Syntax: Access specifier Non-acces specifier return_type Metho_Name(Datatype variable_name)
+  
+   declaration: public static void main(int number)
+
+4.Explain methods and it's types and ways of declaration
+Ans: Methods is Block of statement it contain set of statement and perform Specific task
+     
+    Types of Method 
+    i.Without return_type and without Argument
+   ii.With return_type and without Argument
+  iii.Without return_type and with Argument
+   iv.With return_type and with Argument
+
+i.Without return_type and without Argument
+  It means the return_type does not return any value and no argument or parameter passed.
+  
+ Ex: public static void main()
+     {
+       Statements
+     }
+
+ii.With return_type and without Argument
+  It means the return_type return the value and no argument or parameter are passed.
+  
+ Ex: public static int main()
+     {
+       Statements
+     }
+iii.Without return_type and with Argument
+  It means the return_type does not return any value and argument or parameter are passed.
+  
+ Ex: public static void main(int number)
+     {
+       Statements
+     }
+
+iv.With return_type and with Argumet
+  It means the return_type return the value and argument or parameter are passed.
+  
+ Ex: public static in main(int number)
+     {
+       Statements
+     }
+
+5.Explain instance creation with prigramming
+Ans: Instance is real world entity. New keyword is used to declare the instace
+    
+Normal class
+
+public class School
+    {
+     public int numberOfRooms;
+     public float bellTime;
+     public boolean isOpen;
+     public School() 
+    }
+
+Tester class 
+
+public class SchoolDriver
+{
+ public school()
+{
+ School School = new School();
+ school.numberOfRooms = new school();
+ school.bellTime = new school();
+ school.isOpen = new school();
+}
+ System.out.println("Number of rooms in school:"+school.numberOfRooms);
+ System.out.println("School bell timimgs:"+school.bellTime);
+ System.out.println("Now School is Open:"+school.isOpen);
+}
+
+6.Write a programming to sum of all Numbers
+Ans: 
+
+public class sum
+{
+
+ public static void main(String args[])
+ {
+  public static int array[];
+  for(int i=0;i<9;i++)
+  {
+    System.out.println("The sum of all numbers:"+array[i]);
+  }
+
+7. 
+    
+10.a).Declare class properly
+   b).where is method instructions
+   c).this is get person details method
+11. What is identifier and identifier rules 
+Ans: Itentifier is a unique naming of variables
+    
+Rules:
+a).It should not start with capitals
+b).It should not start with numbers
+c).It should not start with any special character except $ and _
+d).It should not Java keawords
+
+12.What is constructor 
+Ans: Constructor name same as class name used to create objects or instance
+
+13.List the 30 keywords
+1.int
+2.float
+3.double
+4.long
+5.char
+6.short
+7.byte
+8.boolean
+9.String
+10.class
+11.array
+12.static
+13.final
+14.abstact
+15.package
+16.private
+17.protected
+18.default
+19.final
+20.void
+21.const
+22.goto
+23.excepton
+24.new
+25.if
+26.else
+27.for
+28.while
+29.print
+30.this
+
+14.Explain the program execution flow?
+Ans: First we have to on the system, write the java program and then it contains class,methods and blocks 
+    After these save and execute the program
+    javac is a compiler it converts source code into byte code 
+    After the compilation we have to execute by java 
+    java is convert the byte code into .class formats 
+    execute the program and shudown
+
+15.Explain the java components
+   JDK[Java Development Kit/Tool]
+   JRE[Java RunTime Environment]
+   JVM[Java virtual Machine]
+   
+
+  
+   
+      
+
+    
+   
+
+
+
+
+    
+
+   
